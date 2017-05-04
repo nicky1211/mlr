@@ -1,3 +1,9 @@
+#Scatter Plot
+#lm model
+#summary
+#Hypothesis
+#Testing a subset of variables using a partial F-test(anova)
+#. Confidence and Prediction Intervals
 eruption.lm = lm(eruptions ~ waiting, data=faithful)
 aov(eruption.lm)
 newdata = data.frame(waiting=80)
